@@ -1,0 +1,50 @@
+"AppState"
+{
+	"appid"		"1808500"
+	"universe"		"1"
+	"LauncherPath"		"E:\\Steam\\steam.exe"
+	"name"		"ARC Raiders"
+	"StateFlags"		"4"
+	"installdir"		"Arc Raiders"
+	"LastUpdated"		"0"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"35070079374"
+	"StagingSize"		"0"
+	"buildid"		"20540845"
+	"LastOwner"		"76561198774089766"
+	"DownloadType"		"1"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"28801262176"
+	"BytesDownloaded"		"28801262176"
+	"BytesToStage"		"35070079374"
+	"BytesStaged"		"35070079374"
+	"TargetBuildID"		"20540845"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1808501"
+		{
+			"manifest"		"5836272632481757652"
+			"size"		"35070079374"
+		}
+	}
+	"InstallScripts"
+	{
+		"1808501"		"steam_install.vdf"
+	}
+	"SharedDepots"
+	{
+		"228989"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}
