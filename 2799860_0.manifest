@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"2799860"
+	"universe"		"1"
+	"LauncherPath"		"e:\\steam\\steam.exe"
+	"name"		"INAZUMA ELEVEN: Victory Road"
+	"StateFlags"		"1026"
+	"installdir"		"INAZUMA ELEVEN Victory Road"
+	"LastUpdated"		"0"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"0"
+	"buildid"		"0"
+	"LastOwner"		"76561198770905746"
+	"DownloadType"		"1"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"73012674032"
+	"BytesDownloaded"		"242681440"
+	"BytesToStage"		"73043874640"
+	"BytesStaged"		"242743889"
+	"TargetBuildID"		"20751847"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+	}
+	"SharedDepots"
+	{
+		"228989"		"228980"
+		"228990"		"228980"
+		"229000"		"228980"
+		"229007"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}
