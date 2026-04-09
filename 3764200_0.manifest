@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"3764200"
+	"universe"		"1"
+	"LauncherPath"		"E:\\Steam\\steam.exe"
+	"name"		"Resident Evil Requiem"
+	"StateFlags"		"1026"
+	"installdir"		"RESIDENT EVIL requiem BIOHAZARD requiem"
+	"LastUpdated"		"0"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"0"
+	"buildid"		"0"
+	"LastOwner"		"76561198735916914"
+	"DownloadType"		"1"
+	"UpdateResult"		"4"
+	"BytesToDownload"		"77454241024"
+	"BytesDownloaded"		"239499536"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"21960597"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+	}
+	"SharedDepots"
+	{
+		"228989"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}
