@@ -1,0 +1,67 @@
+"AppState"
+{
+	"appid"		"814380"
+	"universe"		"1"
+	"LauncherPath"		"e:\\steam\\steam.exe"
+	"name"		"Sekiro™: Shadows Die Twice"
+	"StateFlags"		"4"
+	"installdir"		"Sekiro"
+	"LastUpdated"		"1763362394"
+	"LastPlayed"		"1763363331"
+	"SizeOnDisk"		"15975740036"
+	"StagingSize"		"0"
+	"buildid"		"5794815"
+	"LastOwner"		"76561198085496943"
+	"DownloadType"		"1"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"12999938304"
+	"BytesDownloaded"		"12999938304"
+	"BytesToStage"		"15975740036"
+	"BytesStaged"		"15975740036"
+	"TargetBuildID"		"5794815"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"814381"
+		{
+			"manifest"		"7598923580425802222"
+			"size"		"68005144"
+		}
+		"814382"
+		{
+			"manifest"		"8495754623934990551"
+			"size"		"14892765638"
+		}
+		"814383"
+		{
+			"manifest"		"1996592192490629382"
+			"size"		"512"
+		}
+		"814385"
+		{
+			"manifest"		"1613271962634429538"
+			"size"		"512"
+		}
+		"1039230"
+		{
+			"manifest"		"1077830899885356469"
+			"size"		"1014968742"
+			"dlcappid"		"1039230"
+		}
+	}
+	"SharedDepots"
+	{
+		"228986"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}
