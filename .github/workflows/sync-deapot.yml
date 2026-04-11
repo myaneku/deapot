@@ -1,0 +1,57 @@
+name: Sync Deapot
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Destination Repo
+        uses: actions/checkout@v4
+        with:
+          path: destination
+          ref: depotcache
+          token: ${{ secrets.API_TOKEN }}
+
+      - name: Sync via Git Clone
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          SOURCE_REPO: ${{ secrets.REPO_SOURCE }}
+        run: |
+          cd destination
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git checkout depotcache || git checkout -b depotcache
+
+          cd ..
+          git clone --bare https://x-access-token:${API_TOKEN}@github.com/${SOURCE_REPO}.git source_metadata
+
+          cd source_metadata
+          branches=$(git for-each-ref --format='%(refname:short)' refs/heads/)
+
+          for branch in $branches; do
+            echo "Memeriksa branch: $branch"
+            files=$(git ls-tree -r $branch --name-only | grep '\.manifest$') || continue
+
+            new_file_in_branch=false
+            for file in $files; do
+              if [ ! -f "../destination/$file" ]; then
+                echo "  + Menemukan file baru: $file"
+                git show "$branch:$file" > "../destination/$file"
+                new_file_in_branch=true
+              fi
+            done
+
+            if [ "$new_file_in_branch" = true ]; then
+              cd ../destination
+              git add .
+              git commit -m "Auto-Update"
+              git pull --rebase origin depotcache
+              git push origin depotcache
+              cd ../source_metadata
+            fi
+          done
